@@ -1,0 +1,37 @@
+.example-card {
+  max-width:300px;
+  height: auto;
+  margin: 30px;
+  background-size: cover;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimg%2F41554&psig=AOvVaw1VYjS23HZtT3qiCz03mqLk&ust=1621591535234000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjypNmb2PACFQAAAAAdAAAAABAE');
+  
+}
+.errorClass{
+    color: red;
+}
+
+
+.body{
+    text-align: -webkit-center;
+    margin: auto;
+
+
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.title{
+    margin-left: 60px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.matParent{
+  width:500px;
+  padding:50px;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-wood-grain-texture-map-image-image_265065.jpg");
+  background-size: cover;
+}

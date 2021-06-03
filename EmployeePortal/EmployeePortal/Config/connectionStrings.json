@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "EmpoyeePortalConnection": "server=localhost;database=EmployePortal;allowuservariables=True;user id=root;password=Suriya@1998"
+  }
+}

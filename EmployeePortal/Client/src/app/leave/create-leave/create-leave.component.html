@@ -1,0 +1,82 @@
+<div class="body">
+    <mat-card class="matParent">
+        <mat-card class="example-card">
+            <mat-card-header class="head">
+                <h2>Leave Request</h2>
+            </mat-card-header>
+            <br />
+
+            <mat-card-content>
+                <form class="example-form" [formGroup]="leaveForm" (ngSubmit)="onSubmit()" autocomplete="on">
+                    <table class="example-full-width" cellspacing="0">
+                        <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>
+                                        From:
+                                    </mat-label>
+                                    <input matInput type="date" formControlName="From"
+                                        [ngClass]="{'is-invalid': submitted && f.From.errors }" />
+                                    <div *ngIf="submitted && f.From.errors" class="invalid-feedback">
+                                        <div *ngIf="f.From.errors.required">From is required</div>
+                                    </div>
+                                </mat-form-field>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>
+                                        To:
+                                    </mat-label>
+                                    <input matInput type="date" formControlName="To"
+                                        [ngClass]="{'is-invalid': submitted && f.To.errors  }" />
+                                    <div *ngIf="submitted && f.To.errors" class="invalid-feedback">
+                                        <div *ngIf="f.To.errors.required">To is required</div>
+                                    </div>
+                                </mat-form-field>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>
+                                        leave User Id
+
+                                    </mat-label>
+                                    <input matInput type="text" formControlName="LeaveUserId" [ngClass]="{
+                      'is-invalid': LeaveUserId && f.Status.errors
+                    }" />
+                                    <div *ngIf="submitted && f.LeaveUserId.errors" class="invalid-feedback">
+                                        <div *ngIf="f.LeaveUserId.errors.required">LeaveUserId is required</div>
+                                    </div>
+                                </mat-form-field>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>
+                                        Message
+                                    </mat-label>
+                                    <input matInput type="text" formControlName="Message" [ngClass]="{
+                      'is-invalid': submitted && f.Message.errors}" />
+                                    <div *ngIf="submitted && f.Message.errors" class="invalid-feedback">
+                                        <div *ngIf="f.Message.errors.required">
+                                            Message is required
+                                        </div>
+                                    </div>
+                                </mat-form-field>
+                            </td>
+                        </tr>
+                    </table>
+                    <mat-card-actions>
+                        <button style="float: left;" mat-flat-button color="primary">Apply</button>
+                        <button style="float: right;" mat-flat-button color="warn" type="reset"
+                            (click)="onReset()">Cancel</button>
+                    </mat-card-actions>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </mat-card>
+</div>

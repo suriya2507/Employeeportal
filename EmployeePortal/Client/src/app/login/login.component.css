@@ -1,0 +1,73 @@
+body {
+}
+.main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: blueviolet;
+  text-shadow: purple;
+  padding-left: 45px;
+}
+.example-mat-card {
+  /* background-color: rgb(39, 36, 36);*/
+  background-color: orange;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  height: 385px;
+
+  border-color: white;
+  border-right: groove;
+  border-top: groove;
+  border-bottom: groove;
+  border-width: 10px;
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 1), 0 1px 10px 0 rgba(0, 0, 0, 1),
+    0 1px 10px 0 rgba(0, 0, 0, 1);
+}
+
+.example-full-width {
+  width: 90%;
+}
+
+.example-header-image {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAA+VBMVEX7JSX////6Hh77TU38IiL7GRn8///7T0/8GBfv///8Hh30///9IiH8FRTs///9gID+DQvwg4b3goP8DQz0YmT49PXmICf4RkbUcH7afonqhozoiZDfJC3xQkXlqrLl5Oz2cnXsGR7YXmrqRErTl6XUi5n+AgHwtrn6rKzO1+fkw8zgt8HvZ2neiJLsOD348PHgkpv329zhTVL5kJHyJCfnPkbcanT05ejjfobylJfrc3bvNDfT7PXq8fbRpK/Kq7n5XV3hFBrFvdDdvMTZ1ODXJzP5NDTGboDDfZDY///pl5zo1t3oWV353t74X1/6x8f8z9C+//+nXHOCvEbmAAAD/ElEQVR4nO3bbVfTMBgG4CUmXdcts7Mb8jZYGY4XERwMBwN1KKCCCvr/f4zdUChuaxPpMc849/WJw+FD7tM8ydMm5HIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj4Tg7hAv2R7JQ3DlzzyfnZtfmJt9vugrbns8/6bk+vWlZcdhQ46zvFT3pbA9KmNCzVTK7C/lRuhOWRRXjsYYKDRCaXtsJvyV2rgYA7Wmb3t0+lqrzqQckRdTk6S1lhAjst6yPUItwt9IzsHY5lQkkSnPY+DlFMwuuZWeg7FXge1xpkuq8zvbnu1xpgh2tHKwIvEycZ/q5WDstbI91iQiLOgGKYSUmxW3oZuDsQXCj0Twtn6QLuFW2NvVz8FYk+7C5e6ZBFmiO7ekwcxirE02iMgVTYKUO1SLRORMcjC2T7VI+LZZkDdUXxblM7MgT8kG0e5PEOT/eDRTi9fNgpAtdtPlt071G6rgem+HvxVyVDfEXNA1CdKl+97uzpsE2XNtj3cisyLZpdqhRPhb/RxlTrZEop2kqh+kSnXxHRBKe90qzJA+jNN/JBWyr1U3fM0VuEz966/uOwn5T6Y5taVTJgfEJ9aAOkzPcTEFOXIi/Tv2WkB4C7kjgouU5zEdOSJ+L6FOnC26zeIIdbQ8Kcfx0TTUxy2PV8Z+rCs2Fun2vGMJtdgb6SCPq9wl3ZjcEupu3pRctf+uPSiWYcE47YtzGTtJCBThipey/b4VG5+ngjDsV/vVaj88OVGxhyFaHy4l2fZX1aMdZN2913wI4Q0JEX8AUm1G/W+eaNkHvZt6PkqbNMJvDleCYoXihiJat9vgIU9amYTiS3/+8iW94zehPt6tTrXGxLtyJcXnYje5TgNiq5hQp/e3755U3kgWIf2zhfsX0k4VrSTByOnhzlpfKen9rnFRilZjN1z5OLJNbpCaXUFl3DZeazeanZAHQeCHZ+efVjfH3g58TehdUfXGjfBmjhWdWrdbc8qT28jPZJpI3jH65juS9YjIziik0SffUV9CGgWf9h6V7h2JLd4zPMsdo0jiNkdgdN1hvEsC9S6/PjwHY7P2X7d87atmSYrWH4l7kEUOxiq2H4lvcCKSpGC5U/Ga2eSwfn4VXGYVxO7CJR7WnMQ5Vm9vef2scjB2YLPclcaFfl3XFueW4d2/ZMWOvdbR7HpsmhV73bz74L43zuLpj/qWZZBla9UuVIYlEhWJtWv/3n6WOSzeMfe+ZxukaiuIu5BtkHlbRZLtomXx1r+6yjbI1WMJYu3fFx7PE7lmTlYGJ40/bH0F9qr5J8by+fgP+div8z9trVriXPCseNzr2GsaKZ1sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH2/APWNR42kNxwPAAAAAElFTkSuQmCC');
+  background-size: cover;
+  height:80px;
+  width: 80px;
+  margin-left:10px;
+}
+.form {
+  text-align: center;
+  table-layout: auto;
+}
+.pic {
+  max-width:530px;
+  height: 100%;
+  block-size: inherit;
+  font-style: italic;
+  text-align: center;
+  align-content: center;
+  background-color: #f6877d;
+  border-color: red;
+  border-left: groove;
+  border-top: groove;
+  border-bottom: groove;
+  border-width: 10px;
+  color: #333;
+}
+.full {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg");
+}
+.example-full-width {
+  color: #1b2af8;
+
+}
